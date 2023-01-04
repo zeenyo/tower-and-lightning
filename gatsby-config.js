@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
-    title: 'Site Title',
+    siteUrl: `https://www.towerandlightning.com`,
+    title: 'Tower & Lightning',
       menuLinks: [
         {
           name: 'home',
@@ -33,10 +33,11 @@ module.exports = {
           "name": "images",
           "path": "./src/images/"
         }, 
-        resolve: `gatsby-omni-font-loader`,
+        resolve: `@nathanpate/gatsby-omni-font-loader`,
         options: {
+          mode: "async",
           enableListener: true,
-          preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
+          preconnect: [`https://fonts.gstatic.com`],
           web: [
             {
               name: `Eczar`,
