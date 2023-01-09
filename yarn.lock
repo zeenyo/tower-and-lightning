@@ -10279,6 +10279,11 @@ open@^7.0.3:
     is-docker "^2.0.0"
     is-wsl "^2.1.1"
 
+opentelemetry@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/opentelemetry/-/opentelemetry-0.1.0.tgz#066bfd5255977cfbec124c26fa0227e87d52b9e5"
+  integrity sha512-8w5sK99P1ZG25WIvHvIa0mSyQ96hl08VQ+1SUrnSg68O85P9ZqjtRwipAftaJW+QvoxxrK7S+Zu9KOqOA+lNhg==
+
 opentracing@^0.14.4:
   version "0.14.7"
   resolved "https://registry.yarnpkg.com/opentracing/-/opentracing-0.14.7.tgz#25d472bd0296dc0b64d7b94cbc995219031428f5"
