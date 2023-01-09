@@ -6575,7 +6575,7 @@ gatsby-page-utils@^0.9.1:
     lodash "^4.17.20"
     micromatch "^4.0.2"
 
-gatsby-plugin-gatsby-cloud@^5.3.1:
+gatsby-plugin-gatsby-cloud@^5.0.0:
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-gatsby-cloud/-/gatsby-plugin-gatsby-cloud-5.3.1.tgz#8745c063abff447ab42c4bd5eab0eefac84cb119"
   integrity sha512-AYbN/p6fepF3I2dJ2arMb3WSXJu01BygBdnAgk5YBB8gMVSp50Sh+ZP7gIKEQm1GCcQL+mw00IrpRD5f4sYCmQ==
