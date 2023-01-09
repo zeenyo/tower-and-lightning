@@ -3,8 +3,7 @@ import * as React from "react"
 // import Layout from '../components/layout.js'
 
 import Logo from "../images/svgs/tl-logo.inline.svg"
-import Logo2 from "../images/svgs/tl-logo3.inline.svg"
-import "../styles/index.sass"
+import "../styles/style.sass"
 
 const IndexPage = () => {
   return (

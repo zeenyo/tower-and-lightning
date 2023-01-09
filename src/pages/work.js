@@ -1,11 +1,13 @@
 import * as React from "react"
-import "../styles/index.sass"
+import "../styles/style.sass"
+import Layout from '../components/layout.js'
+// import Project from '../components/prooject.js'
 
 const WorkPage = () => {
   return (
-    <main>
-      <h1>This is the work page.</h1>
-    </main>
+    <Layout pageName="work-page">
+      
+    </Layout>
   )
 }
 

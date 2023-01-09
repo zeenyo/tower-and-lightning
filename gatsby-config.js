@@ -7,17 +7,17 @@ module.exports = {
     title: 'Tower & Lightning',
       menuLinks: [
         {
-          name: 'home',
-          link: '/'
-        },
-        {
-          name: 'work',
-          link: '/work'
+          name: 'projects',
+          link: '#projects'
         },
         {
           name: 'about',
-          link: '/about'
-        }
+          link: '#about'
+        },
+        {
+          name: 'contact',
+          link: '#contact'
+        },
       ]
   },
   plugins: [
@@ -31,7 +31,7 @@ module.exports = {
         resolve: 'gatsby-source-filesystem',
         options: {
           "name": "images",
-          "path": "./src/images/"
+          "path": `${__dirname}/src/images/`
         }, 
         resolve: `@nathanpate/gatsby-omni-font-loader`,
         options: {

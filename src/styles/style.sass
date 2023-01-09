@@ -1,0 +1,53 @@
+@import './reset'
+@import './colors'
+@import './header'
+@import './footer'
+@import './sections'
+@import './projects'
+
+body 
+	background-color: rgba(171,164,151, 0.5)
+	// filter: contrast(10%)
+	font-family: Eczar, serif
+	overflow-x: hidden
+	// background-image: url('../images/tower-and-lightning.jpeg')
+	// background-size: 100%
+	// background-position: center
+	// filter: contrast(0.5)
+	&::-webkit-scrollbar
+		// background: $bluer
+		// color: #fff
+
+main 
+	display: flex
+	flex-flow: column nowrap
+	justify-content: flex-start
+	align-items: center
+	width: 100vw
+	min-height: 100vh
+	height: max-content
+	position: relative
+	// padding: 0 0 5% 0
+
+.placeholder
+	display: flex
+	flex-flow: column nowrap
+	align-items: center
+	justify-content: center
+	#logo
+		height: 50vh
+	h1
+		color: $dark
+		text-align: center
+		font-size: 3rem
+		margin: 0
+		font-weight: 600
+	h2 
+		color: $dark
+		font-weight: 400
+		font-size: 1.3rem
+		margin: 0
+		padding: 1rem
+
+.BrainhubCarousel__arrows
+	background-color: $bluer !important

@@ -46,3 +46,42 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+html {
+	font-size: 62.5%; /* 1rem = 10px */
+	scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	-webkit-font-smoothing: antialiased;
+	word-break: break-word;
+	word-wrap: break-word;
+}
+
+.group::after,
+.entry-content::after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+@media ( prefers-reduced-motion: reduce ) {
+
+	* {
+		animation-duration: 0s !important;
+		transition-duration: 0s !important;
+	}
+}
