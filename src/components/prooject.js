@@ -1,8 +1,5 @@
 import React, { useState } from 'react'
 
-// import Carousel from '@brainhubeu/react-carousel'
-// import '@brainhubeu/react-carousel/lib/style.css'
-
 export default function Project({ title, client, year, children}){
 
 	const[isShown, setIsShown] = useState(false);
