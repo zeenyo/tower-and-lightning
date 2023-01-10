@@ -2,31 +2,31 @@ import * as React from "react"
 
 import "../styles/style.sass"
 
-import Carousel from '@brainhubeu/react-carousel'
-import '@brainhubeu/react-carousel/lib/style.css'
+// import Carousel from '@brainhubeu/react-carousel'
+// import '@brainhubeu/react-carousel/lib/style.css'
 
 import Layout from '../components/layout.js'
 import Project from '../components/prooject.js'
 import Logo from "../images/svgs/tl-logo.inline.svg"
 
-import rising1 from '../images/work/rising/rising-logo.png'
-import rising2 from '../images/work/rising/rising-desktop.png'
-import rising3 from '../images/work/rising/rising-iphone.png'
+// import rising1 from '../images/work/rising/rising-logo.png'
+// import rising2 from '../images/work/rising/rising-desktop.png'
+// import rising3 from '../images/work/rising/rising-iphone.png'
 
-import ud1 from '../images/work/ud/ud-monitor.png'
-import ud2 from '../images/work/ud/ud-phone.png'
+// import ud1 from '../images/work/ud/ud-monitor.png'
+// import ud2 from '../images/work/ud/ud-phone.png'
 
-import dad1 from '../images/work/dad/bigDad_transparent.png'
-import dad2 from '../images/work/dad/bigDad_bi_transparent.png'
-import dad3 from '../images/work/dad/sis-09-2022.png'
+// import dad1 from '../images/work/dad/bigDad_transparent.png'
+// import dad2 from '../images/work/dad/bigDad_bi_transparent.png'
+// import dad3 from '../images/work/dad/sis-09-2022.png'
 
-import odd1 from '../images/work/odd/oddDuck_logo.png'
-import odd3 from '../images/work/odd/odd.png'
-import odd4 from '../images/work/odd/odd_dice1.mp4'
+// import odd1 from '../images/work/odd/oddDuck_logo.png'
+// import odd3 from '../images/work/odd/odd.png'
+// import odd4 from '../images/work/odd/odd_dice1.mp4'
 
-import bkw1 from '../images/work/bkw/zrivera.png'
-import bkw2 from '../images/work/bkw/mklaw.png'
-import bkw3 from '../images/work/bkw/bkw_bestLawyers_insta_2023.png'
+// import bkw1 from '../images/work/bkw/zrivera.png'
+// import bkw2 from '../images/work/bkw/mklaw.png'
+// import bkw3 from '../images/work/bkw/bkw_bestLawyers_insta_2023.png'
 
 const TestPage = () => {
 
@@ -47,7 +47,7 @@ const TestPage = () => {
         <div className="section-content">
           <Project title="Branding, Copywriting, & Website" client="Rising Spirit Fitness" year="2023">
             <h4>Experience the site <a href="https://risingspirit.fit/" target="blank" rel="noreferrer">here.</a></h4>
-             <Carousel plugins={['arrows', 'infinite']}>
+             {/*<Carousel plugins={['arrows', 'infinite']}>
               <div className="slide">
                 <img src={rising1} alt="rising spirit logo" />
               </div>
@@ -57,24 +57,24 @@ const TestPage = () => {
               <div className="slide">
                 <img className="phone" src={rising3} alt="iThe rising spirit website home on mobile." />
               </div>
-            </Carousel>
+            </Carousel>*/}
           </Project>
 
           <Project title="Website & UX" client="The Digital Underground" year="2022">
              <h4>Experience the site <a href="https://theunderground.digital/" target="blank" rel="noreferrer">here.</a></h4>
-             <Carousel plugins={['arrows', 'infinite']}>
+             {/*<Carousel plugins={['arrows', 'infinite']}>
               <div className="slide">
                 <img src={ud1} alt="The Underground Digital website home on desktop." />
               </div>
               <div className="slide">
                 <img className="phone" src={ud2} alt="iThe Underground Digital website home on mobile." />
               </div>
-            </Carousel>
+            </Carousel>*/}
           </Project>
 
           <Project title="Email Signatures, Print Ads, & Social Media" client="BKW Family" year="2022">
             {/*<h4></h4>*/}
-            <Carousel plugins={['arrows', 'infinite']}>
+            {/*<Carousel plugins={['arrows', 'infinite']}>
               <div className="slide">
                 <img src={bkw1} alt="email signature" />
               </div>
@@ -84,12 +84,12 @@ const TestPage = () => {
               <div className="slide">
                 <img src={bkw3} alt="instagram post sample" />
               </div>
-            </Carousel>
+            </Carousel>*/}
           </Project>
 
           <Project title="Logo Design & Branding" client="Odd Duck Dice" year="2021">
             <h4>May the odds be ever in your favor.</h4>
-            <Carousel plugins={['arrows', 'infinite']}>
+            {/*<Carousel plugins={['arrows', 'infinite']}>
               <div className="slide">
                 <img src={odd1} alt="odd duck logo" />
               </div>
@@ -101,12 +101,12 @@ const TestPage = () => {
                   <source src={odd4} type="video/mp4" />
                 </video>
               </div>
-            </Carousel>
+            </Carousel>*/}
           </Project>
 
           <Project title="Logo Design" client="Big Dad Industries" year="2020">
             <h4>This Twitch streamer needed an iconic logo for his growing presence.</h4>
-            <Carousel plugins={['arrows', 'infinite']}>
+            {/*<Carousel plugins={['arrows', 'infinite']}>
               <div className="slide">
                 <img src={dad1} alt="big dad logo" />
               </div>
@@ -118,7 +118,7 @@ const TestPage = () => {
                 <img src={dad3} className="sis" alt="steeped in segal cover" />
                 <p>Cover art for a Big Dad podcast production.</p>
               </div>
-            </Carousel>
+            </Carousel>*/}
           </Project>
         </div>
       </section>
