@@ -28,7 +28,7 @@ import bkw1 from '../images/work/bkw/zrivera.png'
 import bkw2 from '../images/work/bkw/mklaw.png'
 import bkw3 from '../images/work/bkw/bkw_bestLawyers_insta_2023.png'
 
-const HomePage = () => {
+const TestPage = () => {
 
   return (
     <Layout pageName="home">
@@ -144,6 +144,6 @@ const HomePage = () => {
   )
 }
 
-export default HomePage
+export default TestPage
 
 export const Head = () => <title>Tower & Lightning | Less stress - more solutions.</title>
