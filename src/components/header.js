@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-// import Logo2 from "../images/svgs/tl-logo3.inline.svg"
 
 const Header = ({ siteTitle, menuLinks }) => (
   <header id="header">
